@@ -16,3 +16,4 @@ data[:color].each do |key, array|
       betterData[:"#{name}"][:lives]<<"#{key}"
     end
   end
+  end
