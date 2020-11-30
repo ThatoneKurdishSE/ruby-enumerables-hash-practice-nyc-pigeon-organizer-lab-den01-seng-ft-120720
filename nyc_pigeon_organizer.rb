@@ -16,4 +16,5 @@ data[:color].each do |key, array|
       betterData[:"#{name}"][:lives]<<"#{key}"
     end
   end
+  betterData.map { |k, v| [k.to_s, v]}.to_h 
   end
