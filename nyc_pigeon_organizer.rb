@@ -3,6 +3,6 @@ def nyc_pigeon_organizer(data)
   betterData= hash.new
   data[:gender].each do |key, array|
     array.each do |name|
-      betterData[:"#{name}"]= hash{:gender => ["#{key}"] :color=> [], :lives =>[]}
+      betterData[:"#{name}"] = {:gender => ["#{key}"], :color=> [], :lives =>[]}
     end
   end
